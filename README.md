@@ -2,6 +2,12 @@
 
 **AI-powered documentation assistant that helps developers build AI applications with Groq's fast inference platform**
 
+
+
+https://github.com/user-attachments/assets/b95d9232-f82e-45c4-8044-94ce75ef8925
+
+
+
 ## Overview
 
 This application demonstrates intelligent documentation search and assistance using [Groq's API](https://console.groq.com/home) for lightning-fast AI responses with [Cloudflare's AI Search capabilities](https://developers.cloudflare.com/ai-search/). Built as a complete, end-to-end template that you can fork, customize, and deploy to help users navigate and understand AI documentation.
