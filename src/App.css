@@ -1,0 +1,64 @@
+:root {
+	/* Brand Colors */
+	--primary-color: #F55036;
+	--primary-dark: #d43e2a;
+	--primary-darker: #b8341f;
+	--primary-light: #f76b55;
+	--primary-lightest: rgba(245, 80, 54, 0.1);
+	
+	/* Background Colors */
+	--background-color: transparent;
+	--background-surface-color: transparent;
+	
+	/* Text Colors */
+	--text-color: #ffffff;
+	--text-secondary: #c0c3c9;
+	
+	/* Emphasis Colors */
+	--emphasis-100: #3a3b3c;
+	--emphasis-200: #4e4f50;
+	--emphasis-300: #6a6b6c;
+	--emphasis-700: #b0b3b8;
+	--emphasis-900: #e4e6ea;
+	
+	/* Font */
+	--font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	
+	/* Navbar height for layout calculations */
+	--navbar-height: 60px;
+}
+
+#root {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: auto;
+}
+
+.github-link {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 48px;
+	height: 48px;
+	background: var(--emphasis-200);
+	border-radius: 50%;
+	color: var(--text-color);
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.github-link:hover {
+	background: var(--emphasis-300);
+	transform: scale(1.05);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.github-link:active {
+	transform: scale(0.95);
+}
