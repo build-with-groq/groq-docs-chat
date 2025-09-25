@@ -7,6 +7,10 @@
 https://github.com/user-attachments/assets/b95d9232-f82e-45c4-8044-94ce75ef8925
 
 
+## Live Demo
+
+[**Try it out now!**](https://groq-docs-chat.groqcloud.dev/)
+
 
 ## Overview
 
